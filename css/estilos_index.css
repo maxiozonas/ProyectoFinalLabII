@@ -1,0 +1,90 @@
+/* Estilos SideBar */
+
+.sidebar {
+    width: 250px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: var(--secondary-color);
+}
+
+.sidebar .sidebar-brand {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar-menu {
+    height: 100%;
+}
+
+.sidebar-menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-menu ul li {
+    margin-top: 1.6rem;
+    
+}
+
+.sidebar-menu ul li a {
+    color: var(--primary-color);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.sidebar-menu ul > li:last-child {
+    position: absolute;
+    bottom: 3rem;
+}
+
+/* Estilos contenido principal */
+
+.contenido-principal {
+   margin-left: 250px;
+}
+
+header {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.barra-busqueda {
+    margin: 0 auto;
+    width: 40%;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.barra-busqueda input {
+    height: 100%;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+}
+  
+.barra-busqueda span {
+    display: inline-block;
+    padding: 0rem 1rem;
+}
+
+.foto-usuario {
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+

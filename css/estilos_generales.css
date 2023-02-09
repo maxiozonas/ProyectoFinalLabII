@@ -6,3 +6,12 @@
     --primary-font: 'Poppins', sans-serif;
     --secondary-font: 'Roboto', sans-serif;
 }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: var(--primary-font);
+}
