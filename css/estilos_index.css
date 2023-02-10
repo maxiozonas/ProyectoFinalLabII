@@ -5,7 +5,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    height: 100vh;
+    height: 100%;
     background-color: var(--secondary-color);
 }
 
@@ -40,8 +40,9 @@
 }
 
 .sidebar-menu ul li a {
+    font-family: var(--secondary-font);
     color: var(--primary-color);
-    font-weight: 600;
+    font-weight: 800;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,6 +51,9 @@
     transition: 0.5s ease-in;
 }
 
+.sidebar-menu ul li a span {
+    margin-right: 5px;
+}
 
 .sidebar-menu a:hover {
     background-color: var(--primary-color);
@@ -137,8 +141,14 @@ header {
     width: 5rem;
 }
 
-.nombre-usuario {
-    color: var(--secondary-color );
+.nombre-usuario h4 {
+    color: var(--secondary-color);
+    font-family: var(--secondary-font);
+    letter-spacing: 2px;
+}
+
+.nombre-usuario p {
+    font-family: var(--secondary-font);
 }
 
 /* Estilos main */
@@ -205,6 +215,8 @@ main .cartas{
 .proyectos {
     width: 70%;
 }
+
+
 
 table {
     width: 100%;
