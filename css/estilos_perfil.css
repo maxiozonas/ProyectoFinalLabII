@@ -1,11 +1,22 @@
+/* @media (max-width:767px) {
+    #info {
+        width: 100%;
+        position: relative;
+    }
+} */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font: var(--primary-font);
     text-align: center;
     padding: 30px;
 }
@@ -17,12 +28,36 @@ main {
 }
 
 #info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     background-color: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px #bbb;
     margin-bottom: 20px;
     width: 45%;
+}
+
+#info div {
+    width: 50%;
+    padding: 10px;
+}
+
+#info form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#info label,
+#info input[type="submit"] {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 #foto {
@@ -66,8 +101,8 @@ img {
 }
 
 footer {
-    background-color: #4CAF50;
-    color: white;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
     text-align: center;
     padding: 30px;
     position: absolute;
