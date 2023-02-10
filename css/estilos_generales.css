@@ -20,3 +20,16 @@ body {
     background-color: #495057;
 }
 
+button {
+    background-color: var(--secondary-color);
+    border-style: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-family: var(--secondary-font);
+    font-weight: 800;
+}
+
+h3 {
+    color: #fff;
+}
+
