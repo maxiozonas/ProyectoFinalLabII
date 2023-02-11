@@ -20,7 +20,7 @@ body {
     background-color: #495057;
 }
 
-button {
+.button {
     color: #fff;
     background-color: var(--secondary-color);
     border-style: none;
