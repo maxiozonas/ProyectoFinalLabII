@@ -21,15 +21,19 @@ body {
 }
 
 button {
+    color: #fff;
     background-color: var(--secondary-color);
     border-style: none;
     border-radius: 5px;
     padding: 0.5rem 1rem;
     font-family: var(--secondary-font);
     font-weight: 800;
+    letter-spacing: 1px;
 }
 
 h3 {
+    font-family: var(--secondary-font);
     color: #fff;
+    letter-spacing: 2px;
 }
 
