@@ -285,12 +285,18 @@ td {
 }
 
 
-
 /* Estilos para pantallas pequeñas (celulares) */
 @media (max-width: 767px) {
     .sidebar {
-        width: 100%;
-        position: relative;
+        width: 70px;
+        position: fixed;
+        
+    }
+
+
+    .sidebar .sidebar-brand h2 span:last-child,
+    .sidebar li a span:last-child {
+        display: none;
     }
 
     .sidebar-menu ul li:hover {
@@ -310,6 +316,7 @@ td {
     }
 
     header {
+
         display: flex;
         justify-content: space-between;
     }
