@@ -29,11 +29,25 @@ body {
     font-family: var(--secondary-font);
     font-weight: 800;
     letter-spacing: 1px;
+    transition: 0.5s ease-in-out;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: var(--secondary-color);
 }
 
 h3 {
     font-family: var(--secondary-font);
     color: #fff;
     letter-spacing: 2px;
+}
+
+.shadow-effect {
+    transition: all 0.4s;
+}
+
+.shadow-effect:hover {
+    box-shadow: -6px 6px 0 0 var(--secondary-color);
 }
 
